@@ -1,7 +1,5 @@
 <h1 align="center"><img src="./imgs/exif_explore.png"></h1>
 
--------
-
 ## Description
 
 You can use ExifExplore to search for images in a folder that match a specified focal length, f value, etc.
