@@ -1,4 +1,4 @@
-<h1 align="center"><img src="./imgs/exif_explore.png"></h1>
+<h1 align="center"><img src="./imgs/exif_explorer.png"></h1>
 
 ## Description
 
@@ -47,7 +47,7 @@ You can easily build a standalone executable by using pyinstaller:
 # install pyinstaller (if Anaconda, you should use conda.)
 pip install pyinstaller
 # build by using pyinstaller
-pyinstaller exif_explore.py --onefile --noconsole --exclude pandas --exclude numpy
+pyinstaller exif_explorer.py --onefile --noconsole --exclude pandas --exclude numpy
 ```
 
 ### postscript
