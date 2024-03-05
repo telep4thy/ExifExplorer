@@ -2,11 +2,11 @@
 
 ## 説明
 
-ExifExploreを使用することで、指定した焦点距離やf値などに一致するフォルダ内の画像を検索することができます。
+ExifExplorerを使用することで、指定した焦点距離やf値などに一致するフォルダ内の画像を検索することができます。
 
 ## 特徴
 
-ExifExploreは、Exif情報を基に、フォルダ内の画像ファイルを条件検索するグラフィカルなツールです。
+ExifExplorerは、Exif情報を基に、フォルダ内の画像ファイルを条件検索するグラフィカルなツールです。
 使用するパラメータのチェックボックスにチェックを入れ、その数値を指定、もしくは2つの数値で範囲指定することができます。
 拡張子が .jpg または .tiff の画像ファイルにのみ対応しています。
 
@@ -51,6 +51,6 @@ pyinstaller exif_explorer.py --onefile --noconsole --exclude pandas --exclude nu
 ### postscript
 
 tkinterを使用した画像の一覧表示には、URL: [https://qiita.com/takimotoseiji/items/a70ae15e1d8dbd858d5c](https://qiita.com/takimotoseiji/items/a70ae15e1d8dbd858d5c)の記事を参考にさせていただきました。
-現在公開中のExifExploreは、初期バージョンです。
+現在公開中のExifExplorerは、初期バージョンです。
 何か問題点や改善点がありましたら、お問い合わせください。
 随時、機能の追加や実装を行う予定です...

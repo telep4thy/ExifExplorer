@@ -2,13 +2,13 @@
 
 ## Description
 
-You can use ExifExplore to search for images in a folder that match a specified focal length, f value, etc.
+You can use ExifExplorer to search for images in a folder that match a specified focal length, f value, etc.
 
 Japanese version of README.md can be found in [./docs/ja/README.md](./docs/ja/README.md).
 
 ## Features
 
-ExifExplore is a graphical tool that performs a conditional search of image files in a folder based on Exif information.
+ExifExplorer is a graphical tool that performs a conditional search of image files in a folder based on Exif information.
 Only image files with .jpg or .png extension are accepted.
 You can check the checkbox for the parameter you want to use and specify its numerical value, or specify a range of two numerical values.
 
@@ -53,6 +53,6 @@ pyinstaller exif_explorer.py --onefile --noconsole --exclude pandas --exclude nu
 ### postscript
 
 For listing images using tkinter, I refer to the article URL: [https://qiita.com/takimotoseiji/items/a70ae15e1d8dbd858d5c](https://qiita.com/takimotoseiji/items/a70ae15e1d8dbd858d5c).
-ExifExplore currently available is an initial version.
+ExifExplorer currently available is an initial version.
 Please contact me for any problems or improvements.
 I plan to add or implement additional functions as needed...
