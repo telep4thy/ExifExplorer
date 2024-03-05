@@ -8,7 +8,7 @@ Japanese version of README.md can be found in [./docs/ja/README.md](./docs/ja/RE
 
 ## Features
 
-ExifEditor is a graphical tool that performs a conditional search of image files in a folder based on Exif information.
+ExifExplore is a graphical tool that performs a conditional search of image files in a folder based on Exif information.
 Only image files with .jpg or .png extension are accepted.
 You can check the checkbox for the parameter you want to use and specify its numerical value, or specify a range of two numerical values.
 
