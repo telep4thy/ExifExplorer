@@ -26,7 +26,7 @@ class Application(tkinter.Frame):
         width = WIDTH
         height = HEIGHT
         self.master.geometry(str(width)+"x"+str(height)+"+"+str(int(self.screen_width/2-width/2))+"+"+str(int(self.screen_height/2-height/2)))  # centering     
-        self.master.title("Exif Explore")
+        self.master.title("Exif Explorer")
         
         # frames
         self.input_frame = tkinter.Frame(self.master, width=WIDTH, height=100, bg='white')
