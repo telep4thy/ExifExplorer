@@ -23,7 +23,7 @@ You can search for image files in a folder by specifying the following items:
 
 You can also click on any of the listed images to view the image in the Photos application.
 
-![screenshot](imgs\screenshot.png)
+![screenshot](./imgs/screenshot.png)
 
 ## System requipments
 
