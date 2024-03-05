@@ -17,6 +17,10 @@ PICTURE_SIZE = 200
 WIDTH = 1280
 HEIGHT = 720
 
+try:
+        ctypes.windll.shcore.SetProcessDpiAwareness(True)
+except:
+    pass
 
 class Application(tkinter.Frame):
     def __init__(self, master=None):
@@ -453,10 +457,10 @@ class Application(tkinter.Frame):
         messagebox.showinfo("READ ME" , message=info)
 
 if __name__ == "__main__":
-    try:
-        ctypes.windll.shcore.SetProcessDpiAwareness(True)
-    except:
-        pass
+    # try:
+    #     ctypes.windll.shcore.SetProcessDpiAwareness(True)
+    # except:
+    #     pass
 
     root = tkinter.Tk()
     app = Application(master = root)
