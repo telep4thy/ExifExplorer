@@ -1,7 +1,5 @@
 <h1 align="center"><img src="../../imgs/exif_explore.png"></h1>
 
--------
-
 ## 説明
 
 ExifExploreを使用することで、指定した焦点距離やf値などに一致するフォルダ内の画像を検索することができます。
@@ -52,6 +50,7 @@ pyinstaller exif_explore.py --onefile --noconsole --exclude pandas --exclude num
 
 ### postscript
 
+tkinterを使用した画像の一覧表示には、URL: [https://qiita.com/takimotoseiji/items/a70ae15e1d8dbd858d5c](https://qiita.com/takimotoseiji/items/a70ae15e1d8dbd858d5c)の記事を参考にさせていただきました。
 現在公開中のExifExploreは、初期バージョンです。
 何か問題点や改善点がありましたら、お問い合わせください。
 随時、機能の追加や実装を行う予定です...

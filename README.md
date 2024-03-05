@@ -1,7 +1,5 @@
 <h1 align="center"><img src="./imgs/exif_explore.png"></h1>
 
--------
-
 ## Description
 
 You can use ExifExplore to search for images in a folder that match a specified focal length, f value, etc.
@@ -54,6 +52,7 @@ pyinstaller exif_explore.py --onefile --noconsole --exclude pandas --exclude num
 
 ### postscript
 
+For listing images using tkinter, I refer to the article URL: [https://qiita.com/takimotoseiji/items/a70ae15e1d8dbd858d5c](https://qiita.com/takimotoseiji/items/a70ae15e1d8dbd858d5c).
 ExifExplore currently available is an initial version.
 Please contact me for any problems or improvements.
 I plan to add or implement additional functions as needed...
